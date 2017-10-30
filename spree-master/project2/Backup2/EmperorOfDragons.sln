@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "EmperorOfDragons", "EmperorOfDragons.dsp", "{81ABD456-7DFB-46A0-83E2-C61151BE9BD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F565C82C-4290-4091-81E7-62404A4EC02B} = {F565C82C-4290-4091-81E7-62404A4EC02B}
+		{F3A810A1-CFDC-45CE-AD35-C1B6E1E0BAA7} = {F3A810A1-CFDC-45CE-AD35-C1B6E1E0BAA7}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "NexonADBalloonLib", "NexonADBalloonLib\NexonADBalloonLib.dsp", "{F565C82C-4290-4091-81E7-62404A4EC02B}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "SetRegistry", "SetRegistry\SetRegistry.dsp", "{55E7FC0D-4B22-4142-857E-ABD002BCF4D8}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "XFControl", "XFControl\XFControl.dsp", "{F3A810A1-CFDC-45CE-AD35-C1B6E1E0BAA7}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "XFileTransfer", "XFileTransfer_Unicode\XFileTransfer.dsp", "{A6D193D7-F538-48B7-9816-A48E25D35EFC}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "XLauncher", "XLauncher_Unicode\XLauncher.dsp", "{CAB78E95-D5A9-4D0A-B1BA-06DEFB67B05A}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "XPacker", "XPacker\XPacker.dsp", "{FD65D7E3-E590-4C24-9B7A-65DBB781046B}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "XPatch", "XPatch_Unicode\XPatch.dsp", "{FAB104F1-5A05-43FC-A00A-B859BF66AF3B}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A3FE928-346C-4755-AE5C-53BCC093496F}
+	EndGlobalSection
+EndGlobal
